@@ -1,0 +1,27 @@
+{
+  "name": "my-logger",
+  "version": "0.1.0",
+  "description": "comfortable data logger.",
+  "main": "MyLogger.js",
+  "dependencies": {
+    "colors": "^0.6.2",
+    "moment": "^2.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "logger"
+  ],
+  "author": "nskazki (http://nskazki.dyndns.info/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nskazki/MyLogger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nskazki/MyLogger/issues"
+  },
+  "homepage": "https://github.com/nskazki/MyLogger"
+}
