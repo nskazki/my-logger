@@ -9,10 +9,10 @@ MyLogger
 
 <h5>Example:</h5>
 ```js
-var infoLogger = helpersLogger.Informer("permitLogServer");
-var errorLogger = helpersLogger.Panic("permitLogServer");
-var warnLogger = helpersLogger.Warning("permitLogServer");
-var debugLogger = helpersLogger.CusotomLogger("permitLogServer", "DEBG", colors.cyan);
+var infoLogger = MyLogger.Informer("permitLogServer");
+var errorLogger = MyLogger.Panic("permitLogServer");
+var warnLogger = MyLogger.Warning("permitLogServer");
+var debugLogger = MyLogger.CusotomLogger("permitLogServer", "DEBG", colors.cyan);
 
 infoLogger('main - info', {
 	desc: 'hi, I\'m friendly information line.',
@@ -28,7 +28,7 @@ warnLogger('main - warn', {
 	encouragingKitten: ':3'
 });
 
-errorLogger('main - error') {
+errorLogger('main - error', {
 	desc: 'Panic, pls somebody halp.',
 	isAllBad: true
 });
@@ -44,3 +44,5 @@ debugLogger('main - debug', {
 	error: null
 });
 ```
+
+![alt tag](https://raw.githubusercontent.com/nskazki/node-MyLogger/master/testProject/myLogger.PNG)
