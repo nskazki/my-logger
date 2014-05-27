@@ -1,4 +1,4 @@
-var MyLogger = require('../MyLogger');
+var MyLogger = require('my-logger');
 var colors = require('colors');
 
 var infoLogger = MyLogger.Informer("permitLogServer");
