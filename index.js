@@ -1,19 +1,14 @@
-//exports
+'use strict'
+
 module.exports.Informer = makeInformer;
 module.exports.Panic = makePanic;
 module.exports.Warning = makeWarning;
 module.exports.CusotomLogger = makeCustomLogger;
 
-//end exports
-
-//require
 var moment = require('moment');
 var util = require('util');
 var colors = require('colors');
 
-//end require
-
-//logger
 function makeInformer(mainTitle) {
 	function informer(title, obj) {
 		console.log("=========== INFO ===========");
@@ -114,26 +109,3 @@ function makeCustomLogger(mainTitle, capsTitle, transFunc) {
 
 	return warning;
 }
-
-//end logger
-
-
-/* best practice
-SomeClass.prototype._funcLoggerInit = function() {
-	this._funcLoggerInformer = loggerCreate(
-		MyLogger.Informer("SomeClass")).bind(this);
-	this._funcLoggerPanic = loggerCreate(
-		MyLogger.Panic("SomeClass")).bind(this);
-	this._funcLoggerWarning = loggerCreate(
-		MyLogger.Warning("SomeClass")).bind(this);
-	this._funcLoggerWsSend = loggerCreate(
-		MyLogger.CusotomLogger("SomeClass", "SEND", colors.cyan)).bind(this);
-
-	function loggerCreate(logger) {
-		return function(title, info) {
-			if (this._optionIsDebug) {
-				logger(title, info);
-			}
-		};
-	}
-};*/
