@@ -16,10 +16,15 @@
     "url": "https://github.com/nskazki/my-logger/issues"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint ."
   },
   "dependencies": {
     "colors": "^0.6.2",
     "moment": "^2.6.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1"
   }
 }
