@@ -53,4 +53,4 @@ debugLogger('main - debug', {
 
 ```
 
-![demo](https://raw.githubusercontent.com/nskazki/node-MyLogger/master/misc/demo.png)
+![demo](/misc/demo.png)
