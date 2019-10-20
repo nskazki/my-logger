@@ -3,7 +3,7 @@
   "author": "nskazki@gmail.com",
   "license": "MIT",
   "version": "1.0.0",
-  "description": "comfortable data logger",
+  "description": "My first packages. It prints fat colorized messages to STDOUT if you ask it to do so.",
   "keywords": [
     "logger"
   ],
