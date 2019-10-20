@@ -2,7 +2,7 @@
   "name": "my-logger",
   "author": "nskazki@gmail.com",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "comfortable data logger",
   "keywords": [
     "logger"
