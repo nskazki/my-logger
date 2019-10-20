@@ -2,7 +2,7 @@
   "name": "my-logger",
   "author": "nskazki@gmail.com",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My first packages. It prints fat colorized messages to STDOUT if you ask it to do so.",
   "keywords": [
     "logger"
